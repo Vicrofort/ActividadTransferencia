@@ -1,56 +1,18 @@
 
-body {
-    font-family: 'Raleway', sans-serif;
-    background-color: #222;
-    color: #f8f8f8;
-}
-
-.title {
-    font-family: 'Lobster', cursive;
-    font-size: 3.5rem;
-}
-
-.text-primary {
-    color: #000000 !important;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-}
 input[type="search"] {
     width: 200px;
     height: 30px;
-    border: 1px solid #ccc;
+    border: 1px solid #211a31;
     padding: 10px;
     font-size: 16px;
   }
 
-  @media (max-width: 768px) {
-    .col-md-6.col-lg-3.mb-5 {
-        text-align: center;
-    }
-}
+ 
 
-@media (max-width: 992px) {
-    .col-md-6.col-lg-3.mb-5 {
-        text-align: center; 
-    }
-}
 
-.portfolio-item img {
-    border: 2px solid #333; 
-    border-radius: 10px; 
-    padding: 10px; 
-    box-shadow: 2px 2px 5px #888; 
-}
 
 .header-title {
     flex-grow: 1; /* Ocupa el espacio disponible en la barra de navegación */
     text-align: center; /* Centra el texto horizontalmente */
 }
+
