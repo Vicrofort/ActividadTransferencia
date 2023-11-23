@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
- <!-- Trabajo Realizado por Victor Manuel Crofort Acevedo y Jeison Estiven Betancourt Garzon, ID de grupo #9 -->
+<!-- Trabajo Realizado por Victor Manuel Crofort Acevedo y Jeison Estiven Betancourt Garzon, ID de grupo #9 -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reseña de Peliculas1</title>
+    <title>Reseñas</title>
     <!-- Agregar CSS de Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-
+    <link rel="stylesheet" href="css/custom.css" />
 </head>
 <!-- Agregar CSS de globales -->
 <link rel="stylesheet" href="css/Globales.css" />
@@ -17,14 +18,16 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Inicio</a>
-
-
-            </button>
-            <!-- Título en el centro -->
-            <h1 class="header-title text-primary">Cartelera de Peliculas </h1>
+                 <!-- Título en el centro -->
+            <h1 class="header-title text-primary " >Cartelera de Peliculas </h1>
+            
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn online " type="submit">Search</button>
+                <div class="circular--square-2">
+                    <img class="circular--square-1" src="Img/Iconos/buscar.png"/>
+                    <button  class="btn online"  >Search</button>
+                    </div>
+            
             </form>
 
     </nav>
@@ -34,7 +37,8 @@
         <section class="page-section portfolio " id="portfolio">
             <div class="container align-items-center">
                 <!-- Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5 my-5">Recientes</h2>
+                <h2 id="recent-title" class="page-section-heading text-center text-uppercase text-secondary mb-5 my-5">
+                    Recientes</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -757,7 +761,8 @@
 
 
     <!-- PIE DE PÁGINA -->
-    <footer class="pie-de-pagina text-center text-md-right bg-dark text-white">
+    <footer 
+    class="pie-de-pagina text-center text-md-right bg-dark text-white">
         <div class="container py-3 my-5">
             <p class="m-0 py-3"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Copyright © 2023. Todos los
                     derechos reservados.</a></p>
